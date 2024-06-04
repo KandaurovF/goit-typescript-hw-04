@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import RequestComponent from "./homework/2";
+import { FormComponent } from "./homework/3";
+import { ComponentApp } from "./homework/4";
 
 function App() {
   return (
@@ -19,6 +22,23 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <main>
+        <section>
+          <p>Homework 2</p>
+          <RequestComponent />
+        </section>
+
+        <section>
+          <p>Homework 3</p>
+          <FormComponent />
+        </section>
+
+        <section>
+          <p>Homework 4</p>
+          <ComponentApp />
+        </section>
+      </main>
     </div>
   );
 }
